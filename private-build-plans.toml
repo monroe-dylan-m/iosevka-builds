@@ -1,0 +1,24 @@
+[collectPlans.iosevka-underscore-col]
+from = ["iosevka-underscore"]
+
+[buildPlans.iosevka-underscore]
+family = "Iosevka (Underscore)"
+spacing = "normal"
+serifs = "sans"
+
+  [buildPlans.iosevka-underscore.ligations]
+  enables = ["connected-underscore"]
+
+
+[collectPlans.iosevka-c-like-col]
+from = ["iosevka-c-like"]
+
+[buildPlans.iosevka-c-like]
+family = "Iosevka (CLike)"
+spacing = "normal"
+serifs = "sans"
+no-cv-ss = true
+
+  [buildPlans.iosevka-c-like.ligations]
+  inherits = "clike"
+  enables = ["connected-underscore"]
